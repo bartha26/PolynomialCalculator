@@ -1,60 +1,35 @@
 # Polynomial Calculator
 
-## Introduction
+## Objective
+Develop a user-friendly graphical interface for a polynomial calculator capable of performing addition, subtraction, multiplication, division, derivative, and integration operations on polynomials with single-variable and integer coefficients.
 
-This Polynomial Calculator project aims to develop a user-friendly graphical interface capable of performing various operations on polynomials, including addition, subtraction, multiplication, division, derivative, and integration. The calculator handles single-variable polynomials with integer coefficients. This README provides an overview of the project's objectives, design, implementation, results, conclusions, and references.
+## Problem Analysis
+The project involves implementing a polynomial calculator with careful consideration for error handling and user-friendliness. Potential challenges include handling scenarios like division by zero and catering to inexperienced users.
 
-## Table of Contents
+## Design
+The project follows an object-oriented approach, with a Polynomial class handling operations. JavaFX is used for the frontend, with separate packages for controllers and models. Algorithms are straightforward, with long division being the most complex.
 
-1. [Assignment Objective](#1-assignment-objective)
-2. [Problem Analysis, Modeling, Scenarios, Use Cases](#2-problem-analysis-modeling-scenarios-use-cases)
-3. [Design](#3-design)
-4. [Implementation](#4-implementation)
-5. [Results](#5-results)
-6. [Conclusions](#6-conclusions)
-7. [Bibliography](#7-bibliography)
+## Implementation
+The Polynomial class stores coefficients and exponents using HashMap. Mathematical operations like addition, subtraction, multiplication, division, derivative, and integration are implemented as methods. Error handling includes checks for division by zero.
 
-## 1. Assignment Objective
+## Results
+All mathematical operations work correctly, with manual testing uncovering and quickly resolving issues like errors in the division algorithm. JUnit tests ensure the correctness of Polynomial class methods.
 
-The main goal of this project is to create a polynomial calculator with the following sub-objectives:
+## Conclusions
+The project provided valuable insights into desktop application development, emphasizing object-oriented design principles and GUI development. Future enhancements could include adding functionality for root finding and improving GUI user-friendliness.
 
-- Design a user-friendly interface.
-- Implement polynomial input functionality.
-- Implement mathematical operations.
-- Integrate the interface with operations.
-- Handle errors gracefully.
-- Test, debug, and optimize performance.
-- Document the project thoroughly.
+## Bibliography
+References include lecture materials, online tutorials, and tools used during the project development.
+ 
 
-## 2. Problem Analysis, Modeling, Scenarios, Use Cases
-
-This section analyzes the project's requirements and discusses various scenarios and use cases. It emphasizes the need for error handling and user-friendly design, considering potential issues such as division by zero.
-
-## 3. Design
-
-The design section presents the object-oriented approach used in the project, focusing on the Polynomial class and the graphical user interface (GUI) implemented using JavaFX. It includes package diagrams, class diagrams, and descriptions of key classes and methods.
-
-## 4. Implementation
-
-This section describes the implementation details of the Polynomial class and other components of the project. It explains how mathematical operations are performed, error handling mechanisms, and the structure of the GUI.
-
-## 5. Results
-
-The results section evaluates the project's functionality, highlighting successful mathematical operations and error handling. It discusses testing methodologies, including JUnit tests for the Polynomial class, and presents sample outputs.
-
-## 6. Conclusions
-
-In the conclusions section, the project's outcomes and learnings are summarized. It reflects on the application of object-oriented design principles, GUI development, and mathematical operations. It also suggests areas for future enhancements.
-
-## 7. Bibliography
-
-This section provides references and resources used during the project, including lecture materials, online tutorials, and tools.
+[UML DIAGRAMS](https://www.uml-diagrams.org/uml-25-diagrams.html) 
+Programming Techniques lectures, laboratories, and support materials 
 
 ---
 
-This README provides an overview of the Polynomial Calculator project, covering its objectives, design, implementation, results, conclusions, and references. For detailed information, refer to the project documentation.
+This README summarizes the Polynomial Calculator project, highlighting its objectives, design, implementation, results, conclusions, and references. For more detailed information, refer to the project documentation.
 
-For any inquiries or assistance, please contact the project developer: 
+For further inquiries or assistance, contact the project developer:
 
 **Developer:** Bartha Tudor  
 **Email:** [tudorbartha26@gmail.com](mailto:tudorbartha26@gmail.com)
