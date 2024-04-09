@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="351.0" prefWidth="505.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.assgn3.polynomial.controllers.HelloController">
+    <stylesheets>
+        <URL value="@hello-view.css" />
+    </stylesheets>
+    <children>
+        <TextField fx:id="polynomial1Text" layoutX="20.0" layoutY="32.0" prefHeight="26.0" prefWidth="472.0" promptText="Enter Polynomial 1" />
+        <TextField fx:id="polynomial2Text" layoutX="20.0" layoutY="80.0" prefHeight="26.0" prefWidth="472.0" promptText="Enter Polynomial 2" />
+        <TextField fx:id="result" layoutX="21.0" layoutY="130.0" prefHeight="26.0" prefWidth="472.0" promptText="Result/quotient" />
+
+        <Button layoutX="21.0" layoutY="199.0" onAction="#onAddButtonClick" text="Add" />
+        <Button layoutX="96.0" layoutY="199.0" onAction="#onSubtractButtonClick" text="Subtract" />
+        <Button layoutX="184.0" layoutY="199.0" onAction="#onMultiplyButtonClick" text="Multiply" />
+        <Button layoutX="260.0" layoutY="199.0" onAction="#onDivideButtonClick" text="Divide" />
+        <Button layoutX="333.0" layoutY="199.0" onAction="#onDifferentiateButtonClick" text="Differentiate" />
+        <Button layoutX="433.0" layoutY="199.0" onAction="#onIntegrateButtonClick" text="Integrate" />
+        <Text layoutX="96.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In case of division polynomial1 will be divided by polynomial2" />
+        <Text layoutX="147.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Polynomial1 will be derived and integrated" />
+        <Text layoutX="148.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The input must be of the following format:" />
+        <Text layoutX="218.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="c*x^e+..." />
+        <Text layoutX="173.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" text="c=coefficient e=exponent" />
+        <Button fx:id="exit" layoutX="465.0" layoutY="343.0" mnemonicParsing="false" onAction="#onExitButtonClick" text="EXIT" />
+        <TextField fx:id="remainder" layoutX="22.0" layoutY="171.0" prefHeight="26.0" prefWidth="472.0" promptText="remainder" />
+        <Text layoutX="139.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EVERY DEGREE SHOULD APPEAR ONLY ONCE" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,32 @@
+/* Styling for buttons */
+.button {
+    -fx-background-color: #4e8ef7; /* Blue background color */
+    -fx-text-fill: white; /* White text color */
+    -fx-font-size: 14px; /* Font size */
+    -fx-font-family: "Arial"; /* Font family */
+    -fx-background-radius: 5px; /* Rounded corners */
+}
+
+.button:hover {
+    -fx-background-color: #367ac7; /* Darker blue background color on hover */
+}
+
+/* Styling for exit button */
+.button#exit {
+    -fx-background-color: #e74c3c; /* Red background color */
+    -fx-text-fill: white; /* White text color */
+    -fx-font-size: 14px; /* Font size */
+    -fx-font-family: "Arial"; /* Font family */
+    -fx-background-radius: 5px; /* Rounded corners */
+}
+
+.button#exit:hover {
+    -fx-background-color: #c0392b; /* Darker red background color on hover */
+}
+
+/* Styling for text */
+.text {
+    -fx-fill: #333333; /* Text color */
+    -fx-font-family: "Arial"; /* Font family */
+    -fx-font-size: 12px; /* Font size */
+}
